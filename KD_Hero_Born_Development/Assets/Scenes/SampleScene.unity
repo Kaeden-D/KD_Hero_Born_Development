@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 18987524}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Raised_Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 31077909}
   - component: {fileID: 31077908}
   - component: {fileID: 31077907}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ramp_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 77387665}
   - component: {fileID: 77387664}
   - component: {fileID: 77387663}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ramp_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 132292537}
   - component: {fileID: 132292536}
   - component: {fileID: 132292535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,6 +488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_03
       objectReference: {fileID: 0}
+    - target: {fileID: 251412280958736764, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -528,6 +532,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2135922141130448193, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110932754784330941, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055917085454136404, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654422218305460407, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055927112010240961, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -547,7 +571,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 565013442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,6 +615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_04
       objectReference: {fileID: 0}
+    - target: {fileID: 251412280958736764, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -631,6 +659,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2135922141130448193, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110932754784330941, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055917085454136404, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654422218305460407, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055927112010240961, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -641,6 +689,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
   m_PrefabInstance: {fileID: 585127659}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &600355063
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600355065}
+  - component: {fileID: 600355064}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &600355064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600355063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec6442aa1dd153499b7f204bb81840f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showWinScreen: 0
+  labelText: Collect all 4 items and win your freedom!
+  maxItems: 1
+--- !u!4 &600355065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600355063}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.430123, y: -0.8995847, z: 3.763673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -747,7 +842,7 @@ GameObject:
   - component: {fileID: 861531021}
   - component: {fileID: 861531020}
   - component: {fileID: 861531019}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ramp_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,6 +1219,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rotateSpeed: 75
+  jumpVelocity: 5
+  distanceToGround: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  bullet: {fileID: 5643933362658760885, guid: 5abdf433dcc39f146a8fb6a36ba7871c, type: 3}
+  bulletSpeed: 100
 --- !u!54 &1241488195
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1251,7 +1353,7 @@ GameObject:
   - component: {fileID: 1405280069}
   - component: {fileID: 1405280068}
   - component: {fileID: 1405280067}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1357,6 +1459,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_02
       objectReference: {fileID: 0}
+    - target: {fileID: 251412280958736764, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1397,6 +1503,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2135922141130448193, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110932754784330941, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055917085454136404, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654422218305460407, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055927112010240961, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1419,7 +1545,7 @@ GameObject:
   - component: {fileID: 1675835729}
   - component: {fileID: 1675835728}
   - component: {fileID: 1675835727}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,7 +1650,7 @@ GameObject:
   - component: {fileID: 1909238614}
   - component: {fileID: 1909238613}
   - component: {fileID: 1909238612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1629,7 +1755,7 @@ GameObject:
   - component: {fileID: 2044752923}
   - component: {fileID: 2044752922}
   - component: {fileID: 2044752921}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ramp_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,7 +1861,7 @@ GameObject:
   - component: {fileID: 2065381120}
   - component: {fileID: 2065381119}
   - component: {fileID: 2065381118}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1966,7 @@ GameObject:
   - component: {fileID: 2100426585}
   - component: {fileID: 2100426584}
   - component: {fileID: 2100426583}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wall_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1945,6 +2071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrier_01
       objectReference: {fileID: 0}
+    - target: {fileID: 251412280958736764, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1984,6 +2114,26 @@ PrefabInstance:
     - target: {fileID: 992258306755212771, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2135922141130448193, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110932754784330941, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055917085454136404, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7654422218305460407, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055927112010240961, guid: 9caa7de30ebd71543bc6d5adb9a2719b, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2062,3 +2212,4 @@ SceneRoots:
   - {fileID: 1241488199}
   - {fileID: 7556346005524786618}
   - {fileID: 1035095156}
+  - {fileID: 600355065}
