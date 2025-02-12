@@ -6,11 +6,10 @@ using UnityEngine.SceneManagement;
 public class GameBehavior : MonoBehaviour
 {
 
-    public bool showWinScreen = false;
-
     public string labelText = "Collect all 4 items and win your freedom!";
-
     public int maxItems = 4;
+    public bool showWinScreen = false;
+    public bool showLossScreen = false;
 
     private int _itemsCollected = 0;
 
@@ -57,7 +56,30 @@ public class GameBehavior : MonoBehaviour
             _playerHP = value;
             Debug.LogFormat("Lives: {0}", _playerHP);
 
+            if (_playerHP <= 0)
+            {
+
+                labelText = "You want another life with that?";
+                showLossScreen = true;
+                Time.timeScale = 0;
+
+            }
+            else
+            {
+
+                labelText = "Ouch... that's got hurt.";
+
+            }
+
         }
+
+    }
+
+    void RestartLevel()
+    {
+
+        SceneManager.LoadScene(0);
+        Time.timeScale = 1.0f;
 
     }
 
@@ -76,8 +98,19 @@ public class GameBehavior : MonoBehaviour
             if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100), "YOU WON!"))
             {
 
-                SceneManager.LoadScene(0);
-                Time.timeScale = 1.0f;
+                RestartLevel();
+
+            }
+
+        }
+
+        if (showLossScreen)
+        {
+
+            if (GUI.Button(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 50, 200, 100), "You lose..."))
+            {
+
+                RestartLevel();
 
             }
 
