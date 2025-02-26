@@ -14,6 +14,9 @@ public class PlayerBehavior : MonoBehaviour
     public GameObject bullet;
     public float bulletSpeed = 100f;
 
+    public delegate void JumpingEvent();
+    public event JumpingEvent playerJump;
+
     private float vInput;
     private float hInput;
     private Rigidbody _rb;
@@ -59,6 +62,8 @@ public class PlayerBehavior : MonoBehaviour
         {
 
             _rb.AddForce(Vector3.up * jumpVelocity, ForceMode.Impulse);
+
+            playerJump();
 
         }
 
